@@ -1,6 +1,7 @@
 import re
 
 count=0
+#reading text file
 file = open('FirstAssignment.txt')
 for line in file:
     line.rstrip()
